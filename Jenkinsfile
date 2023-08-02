@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World master remote'
+                echo 'Hello World master ,local, remote'
             }
         }
     }
